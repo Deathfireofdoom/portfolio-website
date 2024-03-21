@@ -1,16 +1,28 @@
 import React from 'react';
-import './Navbar.css';
 
-const Navbar = () => {
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    justifyContent: 'center',
+  }
+}
+
+const Navbar = ({color}) => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if(section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <nav>
-      <ul>
-        <li>Main</li>
-        <li>Projects</li>
-        <li>Contact</li>
-        <li>About</li>
-      </ul>
-    </nav>
+    <div style={{...styles.container, color: color}}>
+        <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('home')}>HOME</div>
+        <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('experience')}>EXPERIENCE</div>
+        <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('contact')}>CONTACT</div>
+    </div>
   );
 };
 

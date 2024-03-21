@@ -24,6 +24,10 @@
   color: white;
 }
 
+body {
+  font-family: 'M PLUS Code Latin';
+}
+
 .App-link {
   color: #61dafb;
 }

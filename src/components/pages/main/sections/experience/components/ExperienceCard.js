@@ -3,30 +3,31 @@ import React from 'react';
 // Styles
 const styles = {
   card: {
-    border: '1px solid #ccc',
-    padding: '20px',
-    margin: '10px 0',
-    borderRadius: '8px',
-    backgroundColor: 'black', 
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'start',
     alignContent: 'left',
     justifyContent: 'left',
+    marginBottom: '30px'
 
 },
   row: {
     display: 'flex',
-    marginBottom: '10px', // Adds space between rows
+    marginBottom: '4px', // Adds space between rows
   },
   label: {
     fontWeight: 'bold',
-    marginRight: '10px', // Ensures space between the label and its value
-    minWidth: '300px', // Ensures labels align by setting a minimum width
-    textAlign: 'left'
+    minWidth: '100px', // Ensures labels align by setting a minimum width
+    textAlign: 'left',
+    fontSize: '1rem',
+    color: 'black',
+    fontFamily: '"M PLUS Code Latin"',
 },
   value: {
     flex: 1, // Takes up the remaining space in the flex container
+    fontSize: '1rem',
+    fontFamily: '"M PLUS Code Latin"',
+    color: 'black',
   },
 };
 
