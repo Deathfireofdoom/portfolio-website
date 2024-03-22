@@ -7,7 +7,7 @@ const data = [
         location: 'Amsterdam',
         techStack: ['Python', 'NodeJS'],
         period: '2023 - Current',
-        details: 'This is details for PVH'
+        details: '### Backend Engineer - Python / NodeJS - PVH Group \n During my time at PVH I was part of the data enablement team, a team dedicated to help other teams. Our day to day work used to be stuff like handling this this this hit.'
     },
     {
         role: 'Software Engineer - DataOps',

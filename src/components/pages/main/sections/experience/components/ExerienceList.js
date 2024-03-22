@@ -5,7 +5,8 @@ const styles = {
         maxHeight: '100%'
     },
     header: {
-        textAlign: 'left'
+        textAlign: 'left',
+        paddingBottom: '5px'
     },
     body: {
         overflowY: 'auto',

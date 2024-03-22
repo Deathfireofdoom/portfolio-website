@@ -14,8 +14,9 @@ const styles = {
 
 const codeString = `class OskarElvkull:
   def __init__(self):
-      self.role = "Backend Engineer"
-      self.languages = ["python", "golang"]`;
+      self.role      = "Backend Engineer"
+      self.languages = ["python", "golang"]
+      self.email     = "*skar.elvkull@gmail.c*m".replace('*', 'o')`;
 
 const CodeBlock = () => {
   return (
