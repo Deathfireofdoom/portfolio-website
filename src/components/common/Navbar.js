@@ -21,7 +21,6 @@ const Navbar = ({color}) => {
     <div style={{...styles.container, color: color}}>
         <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('home')}>HOME</div>
         <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('experience')}>EXPERIENCE</div>
-        <div className="text-center p-3 border-round-sm bg-primary" onClick={() => scrollToSection('contact')}>CONTACT</div>
     </div>
   );
 };
